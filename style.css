@@ -1,0 +1,458 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box; 
+    text-decoration: none;
+   
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.logo {
+    border-radius: 10px;
+    border-color: #333 5px;
+    width: 15vh;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    padding: 0 20px;
+    font-size: 20px;
+
+
+}
+
+
+    
+
+.navbar ul li a {
+    
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: rgb(164, 155, 72);
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label {
+    display: none;
+    cursor: pointer;
+}
+
+.header-content{
+    display: flex;
+   margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+  url("fondo.jpg");
+  width: 100%;
+  height: 1000px;
+  border-radius: 20px solid black;
+}
+
+.header-txt{
+    flex-basis: 50%;
+    padding-right: 120px;
+    margin: 30px 50px 300px;
+   
+
+}
+.header-txt h1{
+    -webkit-text-stroke:#333 1px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    color: #E26022;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.header-txt p{
+    font-size: 20px;
+    color:#E26022;
+    margin-bottom: 50px;
+    text-align: center;
+    -webkit-text-stroke:#333 1px;
+
+}
+.btn-header{
+    display: inline-block;
+    margin-left: 205px;
+    padding: 13px 30px;
+    background-color: #E26022;
+    color:#333;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,2);
+    -webkit-text-stroke:#333 1px;
+   
+
+
+}
+
+.header-img{
+    flex-basis: 50%;    
+}
+
+
+   
+
+.foto5{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card img:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+
+.card img{
+    
+    border-radius: 15px;
+    width: 150%;
+    
+    height: 500px;
+    object-fit: cover;
+   
+}
+.card{
+    overflow:hidden;
+        width: 500px;
+        height: 600px;
+       
+        border-radius: 5%;
+        padding: 1%;
+        
+}
+.cards {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    height: 125%;
+    padding: 2%;
+    
+}
+.card-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.card-text{
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.trabajo{
+    margin-top: 70px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke:#333 1px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #E26022;
+}
+
+.descripcion{
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+    -webkit-text-stroke:#333 1px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin-top: 70px;
+  max-width: 1000px;
+  background: #fff;
+  width: 900px;
+  height: 550px;
+    padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.container .text{
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background-color: #E26022;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container form{
+  padding: 30px 0 0 0;
+}
+.container form .form-row{
+  display: flex;
+  margin: 32px 0;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  color:#333;
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+.input-data .underline{
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
+}
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+}
+.submit-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  align-items: center;
+  left: -100%;
+  background-color: #E26022;
+  transition: all 0.4s;
+}
+.submit-btn .input-data:hover .inner{
+  left: 0;
+}
+.submit-btn .input-data input{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 700px) {
+  .container .text{
+    font-size: 30px;
+  }
+  .container form{
+    padding: 10px 0 0 0;
+  }
+  .container form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40%!important;
+  }
+}
+
+@media(max-width:991px){
+    .card {
+        width: 80%;
+      
+    }
+    .container{
+        max-width: 100%;
+    }
+    .header-content{
+        background-image: none;
+    }
+    .menu{
+        padding: 20px;
+        position: relative
+        ;
+    }
+    .menu label{
+        display: initial;
+
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #E26022;
+        display: none;
+
+    }
+    .menu .navbar ul{
+        flex-direction: column;
+        padding: 0 20px;}
+
+    .menu .navbar ul li{
+        width: 100%;
+        padding: 20px 0;
+
+    }
+   
+       
+   
+     .menu .navbar ul li a:hover{
+        color: rgb(8, 12, 12);
+
+     }
+     #menu:checked ~ .navbar{
+        display: initial;
+     }
+     .header-content{
+        padding: 30px;
+        margin-top: 0;
+        flex-direction: column;
+        text-align: center;
+
+     }
+     .header-txt{
+        padding: 0 0 40px 0;
+
+     }
+     .header-img img{
+        width: 300px;
+
+     }
+    }
+
+/*Estilos generales del boton whatsapp*/
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    animation: breathe 2s ease-in-out infinite;
+  }
+  
+  /*Estilos solo al icono whatsapp*/
+  .whatsapp-btn i {
+    color: #fff;
+    font-size: 24px;
+    animation: beat 2s ease-in-out infinite;
+    text-decoration: none;
+  }
+  
+  /*Estilos con animation contorno respirando*/
+  @keyframes breathe {
+    0% {
+      box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+    }
+    70% {
+      box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  
+  /*Estilos de animacion del icono latiendo*/
+  @keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+ 
